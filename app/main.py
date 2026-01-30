@@ -7,6 +7,13 @@ from app.config import SUPPORTED_LANGUAGES
 
 app = FastAPI(title="AI Generated Voice Detection API")
 
+@app.get("/")
+def root():
+    return {
+        "status": "running",
+        "message": "Voice Detection API is live"
+    }
+
 @app.get("/api/voice-detection")
 def voice_detection_get():
     return {
