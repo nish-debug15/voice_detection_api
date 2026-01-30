@@ -7,6 +7,14 @@ from app.config import SUPPORTED_LANGUAGES
 
 app = FastAPI(title="AI Generated Voice Detection API")
 
+@app.get("/api/voice-detection")
+def voice_detection_get():
+    return {
+        "status": "error",
+        "message": "This endpoint only supports POST requests"
+    }
+
+
 @app.post(
     "/api/voice-detection",
     response_model=VoiceDetectionResponse
