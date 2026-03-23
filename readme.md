@@ -5,7 +5,7 @@ This project is built for the **AI-Generated Voice Detection (Multi-Language)** 
 
 ---
 
-## 🚀 Live API (Public)
+## Live API (Public)
 
 Base URL  
 https://voice-detection-api-uq21.onrender.com
@@ -21,7 +21,7 @@ https://voice-detection-api-uq21.onrender.com/health
 
 ---
 
-## 🌍 Supported Languages
+## Supported Languages
 
 - Tamil  
 - English  
@@ -33,7 +33,7 @@ The language is explicitly provided in the request. Auto-detection is not used.
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 All API requests must include an API key.
 
@@ -44,7 +44,7 @@ Requests without a valid API key are rejected.
 
 ---
 
-## 📥 API Request Specification
+## API Request Specification
 
 Endpoint  
 POST /api/voice-detection
